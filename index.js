@@ -50,7 +50,7 @@ app.post('/api/export-pdf', async (req, res) => {
         </div>
         <div>
           <label class="block text-sm font-medium">Email</label>
-          <input name="email" type="email" required class="w-full mt-1 p-2 border rounded" avlue="${data.email}"/>
+          <input name="email" type="email" required class="w-full mt-1 p-2 border rounded" value="${data.email}"/>
         </div>
         <div>
           <label class="block text-sm font-medium">Téléphone</label>
@@ -70,7 +70,7 @@ app.post('/api/export-pdf', async (req, res) => {
         </div>
         <div>
           <label class="block text-sm font-medium">Province</label>
-           <input name="ville" type="text" required class="w-full mt-1 p-2 border rounded" value="${data.province}" />
+           <input name="province" type="text" required class="w-full mt-1 p-2 border rounded" value="${data.province}" />
         </div>
         <div>
           <label class="block text-sm font-medium">Code postal</label>
