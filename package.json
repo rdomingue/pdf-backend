@@ -1,14 +1,14 @@
 {
-    "name": "pdf-backend",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "dependencies": {
-      "express": "^5.1.0",
-      "puppeteer": "^24.6.1",
-      "cors": "^2.8.5",
-      "body-parser": "^2.2.0"
-    }
+  "name": "pdf-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.2",
+    "puppeteer": "^24.7.0",
+    "cors": "^2.8.5",
+    "body-parser": "^2.2.1"
   }
+}
